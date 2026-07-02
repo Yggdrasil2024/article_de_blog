@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Guyverna blog</title>
   </head>
   <body>
@@ -19,24 +18,15 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <div class="main_container">
+      <div>
         <article>
-          <section class="article_content">
-            <h1>Maitriser Html et css dans le developpement moderne</h1>
-
-            <h4 class="meta_data_articles">
-              Par Guyverna | 2 Juillet 2026 | categorie: Dev Web
-            </h4>
-
-            <p class="introduction_artcle">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-              odit nostrum laborum vero, dolore nisi unde similique doloremque
-              quisquam non totam. Fuga tempore excepturi libero vel voluptatem,
-              officia itaque qui! Animi laborum commodi, aliquam culpa impedit
-              labore totam temporibus facere modi porro nobis exercitationem?
-              Officia obcaecati et sequi asperiores voluptates ad molestiae. Vel
-              sunt, alias dignissimos quam molestias laudantium neque.
+          <h2>Commencer le UI/UX Design</h2>
+          <div>
+            <p>
+              Par Guyverna | <time datetime="2026-07-02">2 Juillet 2026</time>|
+              categorie: UX design
             </p>
             <blockquote>
               <p>
@@ -44,22 +34,38 @@
                 <span>Henry David Thoreau</span>
               </p>
             </blockquote>
+            <p>
+              Bonjour chers lecteur, dans cette article de notre blog nous
+              allons partir à la decouverte d'un concepte très important du
+              developpement informatique en générale. le concept dont il est
+              question ici est ce que l'on appele un wireframe. un wireframe est
+              un croquis qui recapitule ceux à quoi notre site ou application
+              finale est sensée ressemblée:
+            </p>
+
             <figure>
-              <img src="img/wireframe.png" alt="wireframe" />
+              <img src="wireframe.png" alt="wireframe" />
               <figcaption>Figure 1: this page wireframe.</figcaption>
             </figure>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem ipsa incidunt id doloribus eius ad eveniet vel,
-              dignissimos unde quibusdam ut ex reprehenderit odit deserunt dicta
-              porro! Eligendi, quo molestiae? Praesentium voluptatibus nihil
-              molestiae, totam atque, vel ex recusandae mollitia perspiciatis
-              voluptas voluptatem perferendis earum ea dolores? Voluptatum omnis
-              ea tenetur similique beatae, dicta dolorum nemo voluptatibus quo a
-              maiores. Id nisi praesentium quasi explicabo culpa itaque sapiente
-              eligendi corrupti fuga. Ipsa est accusantium veniam corporis! Odio
-              aperiam ratione commodi quam iste officia ipsa maiores enim,
-              consequatur ullam sit vero!
+              est sensée ressemblée: comme vous pouvéz le voir avec l'exemple
+              ci-dessus le wireframe ne ressemble pas exactement au site ou à
+              l'application finale mais permet de representé les conceptes
+              exploité dans l'aspect visuel final de notre application, il va
+              decoulé des fruits des recherches en ament sur la psychologie de
+              l'utilisteur final de l'application. pour cela le concepteur du
+              wireframe doit concilier les besions et objectifs de l'application
+              ou du produit final avec le intérets de client, de l'utilisateur
+              de l'application cela est souvent permis par des connaissance
+              approfondis basé sur des études sur la psychologie cognitive et le
+              business permettant d'arriver à un resultat dont le produit peut
+              satisfaire les besions des utilisateurs en resolvant leur problème
+              mais aussi les interet financier des createur du produit car ce
+              dernier a une experience utilisateur assez convainquante et
+              consistante pour que les utilisateurs soient pret à payer pour
+              s'en servir. dans le tableau ci-après vous trouver des ressources
+              très utiles pour explorer d'avantage les conceptes de la
+              psychologie cognitive.
             </p>
             <table>
               <tr>
@@ -87,27 +93,27 @@
                 </td>
               </tr>
             </table>
-            <p class="tag_area">
-              Tags: <span class="tags">UI Design</span>
-              <span class="tags">UI Design</span
-              ><span class="tags">UI Design</span>
+            <p>
+              Tags: <span><a href="#">UI Design</a></span>
+              <span><a href="#">UI Design</a></span
+              ><span><a href="#">UI Design</a></span>
             </p>
-          </section>
-          <section class="comment_section">
+          </div>
+          <section>
             <h2>commentaires (2)</h2>
-            <div class="comments">
-              <div class="comment">
-                <img src="#" alt="profil" />
-                <div class="comment_texts">
-                  <h3 class="comment_pseudo">Jean Jacque</h3>
-                  <p class="comment_text">Merci pour ces informations</p>
+            <div>
+              <div>
+                <img src="profile.png" alt="profil" />
+                <div>
+                  <p>Marie de Lavall</p>
+                  <p>Merci pour ces informations</p>
                 </div>
               </div>
-              <div class="comment">
-                <img src="#" alt="profil" />
-                <div class="comment_texts">
-                  <h3 class="comment_pseudo">Jean Jacque</h3>
-                  <p class="comment_text">Merci pour ces informations</p>
+              <div>
+                <img src="profile.png" alt="profil" />
+                <div>
+                  <h3>Jean Jacque</h3>
+                  <p>Avez vous de formations disponibles?</p>
                 </div>
               </div>
             </div>
@@ -118,7 +124,6 @@
               <input type="email" name="email" id="email" /><br />
               <textarea
                 name="comment"
-                id=""
                 placeholder="votre commentaire"
               ></textarea>
               <br />
@@ -126,33 +131,33 @@
             </form>
           </section>
         </article>
-        <div class="asides">
+        <div>
           <aside>
             <h2>Articles recents</h2>
-            <ul class="recent_articles_list">
+            <ul>
               <li>
-                <h4 class="recent_article">
+                <h3>
                   <a href="#">Maitriser html et css</a>
-                </h4>
-                <h6 class="recent_article_date">1 - 2 juillet 2026</h6>
+                </h3>
+                <time datetime="2026-07-02">1 - 2 juillet 2026</time>
               </li>
               <li>
-                <h4 class="recent_article">
+                <h3>
                   <a href="#">Maitriser html et css</a>
-                </h4>
-                <h6 class="recent_article_date">1 - 2 juillet 2026</h6>
+                </h3>
+                <time datetime="2026-07-02">1 - 2 juillet 2026</time>
               </li>
               <li>
-                <h4 class="recent_article">
+                <h3>
                   <a href="#">Maitriser html et css</a>
-                </h4>
-                <h6 class="recent_article_date">1 - 2 juillet 2026</h6>
+                </h3>
+                <time datetime="2026-07-02">1 - 2 juillet 2026</time>
               </li>
             </ul>
           </aside>
-          <aside class="categories">
+          <aside>
             <h2>categories</h2>
-            <ul class="categorie_list">
+            <ul>
               <li><a href="#">Dev web(15)</a></li>
               <li><a href="#">design(5)</a></li>
               <li><a href="#">git(5)</a></li>
